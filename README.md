@@ -1,2 +1,2 @@
-# sist-inteligentes-T02
-Tarefa 02 da matéria de Sistemas Inteligentes. Modelagem com A.M. (simbólica+ neural)
+# Sistemas-Inteligentes
+Repositório das tarefas da disciplina de Sistemas Inteligentes, turma S73 - 2023/2
