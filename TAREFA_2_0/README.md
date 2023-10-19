@@ -23,6 +23,8 @@ Nesta etapa, espera-se que a equipe:
 - Formato: PDF
 
 ### LINKS
-   *)Weka: https://waikato.github.io/weka-wiki/downloading_weka 
-   *)scikit-learn de Python - (inclusive com o DataSet IRIS de exemplo): https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
-   *)Biblioteca Neuro, disponível no GITLAB em: https://gitlab.com/joaofabro/Neuro
+- Weka: https://waikato.github.io/weka-wiki/downloading_weka
+
+- scikit-learn de Python - (inclusive com o DataSet IRIS de exemplo): https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
+
+- Biblioteca Neuro, disponível no GITLAB em: https://gitlab.com/joaofabro/Neuro
