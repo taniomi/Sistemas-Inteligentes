@@ -1,1 +1,5 @@
+# jupyter lab
 .ipynb_checkpoints
+
+# python files 
+__pycache__/
