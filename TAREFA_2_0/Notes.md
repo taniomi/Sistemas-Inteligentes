@@ -40,3 +40,6 @@ size of 32.
 Moreover, it’s good practice to keep a portion of the data (20%-30%) for validation. 
 In other words, the model will set apart this fraction of data to evaluate the loss 
 and metrics at the end of each epoch, outside the training.
+
+### Implementing
+- Inicialmente a regressão foi realizada com 100 épocas. Mas a velocidade de aprendizado não foi a esperada, então o número de épocas foi ajustado para 1000 épocas, e os gráficos de aprendizado mostraram diminuição significativa na perda.
