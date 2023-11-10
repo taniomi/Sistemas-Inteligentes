@@ -198,7 +198,7 @@ def visualize_nn(model, description=False, figsize=(10,8)):
                 plt.text(x=left+d*x_space, y=top, fontsize=10, color=color, s=layer["name"].upper())
             else:
                 plt.text(x=left+d*x_space, y=top, fontsize=10, color=color, s=layer["name"].upper())
-                plt.text(x=left+d*x_space, y=top-p, fontsize=10, color=color, s=layer['activation']+" (")
+                plt.text(x=left + d * x_space, y=top - p, fontsize=10, color=color, s=str(layer['activation']) + " (")
                 plt.text(x=left+d*x_space, y=top-2*p, fontsize=10, color=color, s="Σ"+str(layer['in'])+"[X*w]+b")
                 out = " Y"  if i == len(layer_sizes)-1 else " out"
                 plt.text(x=left+d*x_space, y=top-3*p, fontsize=10, color=color, s=") = "+str(layer['neurons'])+out)

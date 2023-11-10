@@ -43,3 +43,13 @@ and metrics at the end of each epoch, outside the training.
 
 ### Implementing
 - Inicialmente a regressão foi realizada com 100 épocas. Mas a velocidade de aprendizado não foi a esperada, então o número de épocas foi ajustado para 1000 épocas, e os gráficos de aprendizado mostraram diminuição significativa na perda.
+
+### Testing various settings
+Set1
+    units=1,
+    activation='relu',
+    optimizer='adam',
+    loss='mean_absolute_error',
+    metrics=[R2]
+
+Set2
